@@ -296,7 +296,7 @@ body {
 }
 
 #crow3 .row .container .card .card-body .card-text {
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
@@ -455,7 +455,7 @@ body {
 }
 
 #crow6 .footer-right {
-  padding: 30px 10px 20px 20px;
+  padding: 50px 10px 20px 20px;
 }
 
 #crow6 .footer-right .row {
@@ -464,7 +464,7 @@ body {
 
 #crow6 .footer-right .row .heading {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #crow6 .footer-form {
@@ -483,5 +483,43 @@ body {
 
 #crow6 .footer-form .form-group #submit-glyph {
   padding: 5px 10px 5px 10px;
+}
+
+.footer-link {
+  margin: 5px;
+  color: white;
+}
+
+.footer-icon-header {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.footer-ending {
+  padding: 50px;
+}
+
+.f-container {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.r1, .r2, .r3, .r4 {
+  padding-left: 0;
+}
+
+.r11, .r22, .r33, .r44 {
+  padding: 0;
+  width: 25px;
 }
 /*# sourceMappingURL=index.css.map */
