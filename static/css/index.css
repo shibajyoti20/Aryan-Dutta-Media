@@ -296,9 +296,13 @@ body {
 }
 
 #crow3 .row .container .card .card-body .card-text {
-  padding-bottom: 80px;
+  padding-bottom: 50px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
+}
+
+#crow3 .row .container .card .card-body .card-text .glyphicon .glyphicon-chevron-right{
+  display: none;
 }
 
 #crow4 {
@@ -455,7 +459,7 @@ body {
 }
 
 #crow6 .footer-right {
-  padding: 30px 10px 20px 20px;
+  padding: 50px 10px 20px 20px;
 }
 
 #crow6 .footer-right .row {
@@ -464,7 +468,7 @@ body {
 
 #crow6 .footer-right .row .heading {
   font-family: Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 #crow6 .footer-form {
@@ -484,4 +488,179 @@ body {
 #crow6 .footer-form .form-group #submit-glyph {
   padding: 5px 10px 5px 10px;
 }
+
+.footer-link {
+  margin: 5px;
+  color: white;
+}
+
+.footer-icon-header {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.footer-ending {
+  padding: 50px;
+}
+
+.f-container {
+  width: 85%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: left;
+}
+
+.r1, .r2, .r3, .r4 {
+  padding-left: 0;
+}
+
+.r11, .r22, .r33, .r44 {
+  padding: 0;
+  width: 25px;
+}
 /*# sourceMappingURL=index.css.map */
+
+
+
+
+
+/*For Mobile display*/
+
+@media only screen and (max-width: 720px){
+  #crow1{
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 750px;
+  }
+  #text-sec1 .ser{
+    text-align: center;
+    font-size: 27px;
+  }
+  #text-sec1 .exe{
+    text-align: center;
+    font-size: 28px;
+  }
+
+  #text-sec2 {
+    padding-top: 16px;
+    text-align:center;
+    font-size: 14px;
+  }
+  #text-sec3 {
+    text-align:center;
+    font-size: 14px;
+  }
+  #ntb-text{
+    display: none;
+  }
+  .col-xs-4{
+    display: none;
+  }
+  #serv-img{
+    display: none;;
+  }
+
+
+  #crow2{
+    border-radius: 30px;
+    height: 680px;
+  }
+
+  #social-marketing{
+    position: relative;
+    top: 0;
+  }
+
+  #scl-mkt1{
+    position: absolute;
+    top: 390px;
+    text-align: center;
+    font-weight: 900;
+  }
+  #scl-mkt2{
+    position: absolute;
+    top: 450px;
+    text-align: center;
+  }
+  .button-section2{
+    position: absolute;
+    top: 480px;
+    left: 35%;
+  }
+  #crow3 #card-text{
+    display: none;
+  }
+
+  #crow3 .row .container {
+   padding-left: 47px;
+  }
+
+  #crow3 .row .container .card {
+    height: 40px;
+    border-radius: 180px;
+    width: 550px;
+  }
+
+  #crow3 .row .container .card .card-body{
+    border-radius: 180px;
+    padding-right: 70%;
+    padding-bottom:50px;
+  }
+
+  #crow3 .row .container .card .card-body .card-title .glyphicon{
+    padding-left: 20%;
+  }
+
+  #crow3 .row .container .card .card-body .card-title{
+    font-size: 19px;
+    padding-bottom:60px;
+  }
+
+  #crow4 {
+    border-radius: 25px;
+    height: 730px;
+  }
+
+  #web-dev1{
+    position:absolute;
+    top: 400px;
+    text-align: center;
+  }
+  #web-dev2{
+    position:absolute;
+    top: 460px;
+  }
+  #web-dev3{
+    position:absolute;
+    top: 40px;
+  }
+
+  #gr-ds1{
+    position: absolute;
+    top:450px;
+    text-align: center;
+  }
+  #gr-ds2{
+    position: absolute;
+    top:500px;
+    text-align: center;
+  }
+  #gr-ds3{
+    position: absolute;
+    top:55px;
+  }
+
+
+  
+
+  
+}
