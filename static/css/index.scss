@@ -26,6 +26,9 @@ body{
         border-bottom:1px solid white;
         padding:20px 15px 20px 15px;
     }
+    .hamburger{
+        display: none;
+    }
 }
 .navbar-inverse{
     background-color: transparent;
@@ -129,6 +132,7 @@ body{
         width:90%;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
         .text{
             background-color: white;
             padding:100px 0px 100px 0px;
@@ -417,7 +421,7 @@ body{
     width:85%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: sta;
     text-align: left;
 }
 .r1,.r2,.r3,.r4{
@@ -426,4 +430,54 @@ body{
 .r11,.r22,.r33,.r44{
     padding:0;
     width:25px;
+}
+
+//--------MEDIA QUERIES---------
+@media screen and (max-width:768px){
+    .overlay1{
+        display:none;
+    }
+    //MAIN NAVBAR
+    .navbar{
+        min-height:15vh;
+        border:1px solid teal;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius:20px;
+        .navcont{
+            width:100%;
+            border-bottom: none;
+            padding:20px;
+            .navbar-header{
+                display:flex;
+                align-items: center;
+                justify-content:space-around;
+                .navbar-brand{
+                    padding:0;
+                    img{
+                        width:150px;
+                        height:20px;
+                    }
+                }
+                .hamburger{
+                    display:block;
+                    .ham{
+                        background-color: white;
+                        width:25px;
+                        height:3px;
+                        margin:5px;
+                    }
+                }
+            }
+        }
+    }
+    .navbar-inverse{
+        background-color: teal;
+        color:black;
+    }
+    .navbar-toggle{
+        border:none;
+    }
+    .navbar-toggle:hover{
+        background-color: transparent;
+    }
 }

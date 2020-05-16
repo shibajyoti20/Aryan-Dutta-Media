@@ -27,6 +27,10 @@ body {
   padding: 20px 15px 20px 15px;
 }
 
+.navbar .hamburger {
+  display: none;
+}
+
 .navbar-inverse {
   background-color: transparent;
   color: black;
@@ -157,6 +161,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .card-wrapper .card-container .text {
@@ -508,9 +514,9 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: sta;
+      -ms-flex-align: sta;
+          align-items: sta;
   text-align: left;
 }
 
@@ -521,5 +527,58 @@ body {
 .r11, .r22, .r33, .r44 {
   padding: 0;
   width: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .overlay1 {
+    display: none;
+  }
+  .navbar {
+    min-height: 15vh;
+    border: 1px solid teal;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .navbar .navcont {
+    width: 100%;
+    border-bottom: none;
+    padding: 20px;
+  }
+  .navbar .navcont .navbar-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .navbar .navcont .navbar-header .navbar-brand {
+    padding: 0;
+  }
+  .navbar .navcont .navbar-header .navbar-brand img {
+    width: 150px;
+    height: 20px;
+  }
+  .navbar .navcont .navbar-header .hamburger {
+    display: block;
+  }
+  .navbar .navcont .navbar-header .hamburger .ham {
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+  }
+  .navbar-inverse {
+    background-color: teal;
+    color: black;
+  }
+  .navbar-toggle {
+    border: none;
+  }
+  .navbar-toggle:hover {
+    background-color: transparent;
+  }
 }
 /*# sourceMappingURL=index.css.map */
