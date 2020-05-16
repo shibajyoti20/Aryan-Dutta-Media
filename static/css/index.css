@@ -301,6 +301,10 @@ body {
   font-size: 15px;
 }
 
+#crow3 .row .container .card .card-body .card-text .glyphicon .glyphicon-chevron-right{
+  display: none;
+}
+
 #crow4 {
   width: 100%;
   padding: 50px;
@@ -523,3 +527,120 @@ body {
   width: 25px;
 }
 /*# sourceMappingURL=index.css.map */
+/*For Mobile display*/
+
+@media only screen and (max-width: 720px){
+  #crow1{
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 750px;
+  }
+  #text-sec1 .ser{
+    text-align: center;
+    font-size: 27px;
+  }
+  #text-sec1 .exe{
+    text-align: center;
+    font-size: 28px;
+  }
+  #text-sec2 {
+    padding-top: 16px;
+    text-align:center;
+    font-size: 14px;
+  }
+  #text-sec3 {
+    text-align:center;
+    font-size: 14px;
+  }
+  #ntb-text{
+    display: none;
+  }
+  .col-xs-4{
+    display: none;
+  }
+  #serv-img{
+    display: none;;
+  }
+  #crow2{
+    border-radius: 30px;
+    height: 680px;
+  }
+  #social-marketing{
+    position: relative;
+    top: 0;
+  }
+  #scl-mkt1{
+    position: absolute;
+    top: 390px;
+    text-align: center;
+    font-weight: 900;
+  }
+  #scl-mkt2{
+    position: absolute;
+    top: 450px;
+    text-align: center;
+  }
+  .button-section2{
+    position: absolute;
+    top: 480px;
+    left: 35%;
+  }
+  #crow3 #card-text{
+    display: none;
+  }
+
+  #crow3 .row .container {
+   padding-left: 47px;
+  }
+  #crow3 .row .container .card {
+    height: 40px;
+    border-radius: 180px;
+    width: 550px;
+  }
+  #crow3 .row .container .card .card-body{
+    border-radius: 180px;
+    padding-right: 70%;
+    padding-bottom:50px;
+  }
+  #crow3 .row .container .card .card-body .card-title .glyphicon{
+    padding-left: 20%;
+  }
+  #crow3 .row .container .card .card-body .card-title{
+    font-size: 19px;
+    padding-bottom:60px;
+  }
+  #crow4 {
+    border-radius: 25px;
+    height: 730px;
+  }
+  #web-dev1{
+    position:absolute;
+    top: 400px;
+    text-align: center;
+  }
+  #web-dev2{
+    position:absolute;
+    top: 460px;
+  }
+  #web-dev3{
+    position:absolute;
+    top: 40px;
+  }
+  #gr-ds1{
+    position: absolute;
+    top:450px;
+    text-align: center;
+  }
+  #gr-ds2{
+    position: absolute;
+    top:500px;
+    text-align: center;
+  }
+  #gr-ds3{
+    position: absolute;
+    top:55px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
+
